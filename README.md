@@ -1,2 +1,3 @@
 # FranzOfferten
-Im Ordner dist befindet sich ein Jar File. Doppelklick auf das Jar File und das Programm startet.
+Im Ordner dist befindet sich FranzOfferten.jar 
+Doppelklick auf das Jar File und das Programm startet.
