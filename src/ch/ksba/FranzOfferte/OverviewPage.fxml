@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="375.0" prefWidth="615.0" style="-fx-background-color: #DF013A;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.ksba.FranzOfferte.OverviewPageController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@e-quote-builder.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="135.0" fitWidth="134.0" layoutX="349.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@file-new-2_icon-icons.com_48618.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnPrinter" layoutX="356.0" layoutY="165.0" mnemonicParsing="false" onAction="#switcherOffer2" prefHeight="123.0" prefWidth="120.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <Button fx:id="btnCreateOffer" layoutX="120.0" layoutY="165.0" mnemonicParsing="false" onAction="#switcherOffer" prefHeight="123.0" prefWidth="109.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <Label layoutX="67.0" layoutY="100.0" text="créer une offre">
+         <font>
+            <Font name="Avenir Next Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="322.0" layoutY="100.0" text="Enregistrer l'offre">
+         <font>
+            <Font name="Avenir Next Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="21.0" text="page de résumé" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Avenir Next Bold" size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
